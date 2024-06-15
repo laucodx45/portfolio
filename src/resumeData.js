@@ -1,73 +1,106 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
+    "name": "Cody Lau ",
+    "role": "Full-Stack Web Developer",
+    "linkedinId":"https://www.linkedin.com/in/cody-lau-11913b28a/",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
-    "socialLinks":[
+    "roleDescription": ` with a background in health science and Paramedicine. Passionate about team collaboration, I strive to create tailored web applications that meet clients' needs.
+    With a keen aptitude for rapid learning and adaptation, I am poised to contribute effectively to any future projects.`, 
+    "socialLinks": [
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/cody-lau-11913b28a/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/laucodx45",
           "className":"fa fa-github"
-        },
-        {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":`I am a recent graduate of the Lighthouse Labs Web Development diploma program. 
+    I am passionate about using my newly acquired programming skills to collaborate with other developers 
+    in creating solutions that address real-world problems and enhance users' lives.`,
+    "address":"Victoria, BC, Canada",
+    "website":"lau-cody@outlook.com",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Lighthouse Labs",
+        "specialization":"Web Development Diploma",
+        "MonthOfPassing":"May",
+        "YearOfPassing":"2024"
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"University of Victoria",
+        "specialization":"Bachelor of Science In Psychology",
+        "MonthOfPassing":"June",
+        "YearOfPassing":"2023"
+      },
+      {
+        "UniversityName": "Justice Institute of British Columbia",
+        "specialization": "Primary Care Paramedic",
+        "MonthOfPassing": "February",
+        "YearOfPassing": "2018"
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"BC Emergency Health Services",
+        "specialization":"Paramedic",
+        "MonthOfLeaving":"2020",
+        "YearOfLeaving":"- current"
       }
     ],
-    "skillsDescription":"Your skills here",
-    "skills":[
+    "skillsDescription":"",
+    "skills": [
       {
-        "skillname":"HTML5"
+        "skillname": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
       },
       {
-        "skillname":"CSS"
+        "skillname": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-original-wordmark.svg"
       },
       {
-        "skillname":"Reactjs"
-      }
+        "skillname": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+      },
+      {
+        "skillname": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"
+      },
+      {
+        "skillname" : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+      },
+      {
+        "skillname" : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+      },
+      {
+        "skillname" : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+      },
+      {
+        "skillname" : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg"
+      },
+      {
+        "skillname" : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-plain-wordmark.svg"
+      },
+      {
+        "skillname" : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rails/rails-plain-wordmark.svg"
+      },
+      {
+        "skillname" : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg"
+      },
+      {
+        "skillname" : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain-wordmark.svg"
+      },
+      {
+        "skillname" : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg"
+      },
+      {
+        "skillname" : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg"
+      },
+      {
+        "skillname" : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original-wordmark.svg"
+      },
+      {
+        "skillname" : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mocha/mocha-original.svg"
+      },
     ],
     "portfolio":[
       {
