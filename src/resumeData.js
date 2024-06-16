@@ -106,23 +106,26 @@ let resumeData = {
       {
         "name":"Yes, Chef",
         "description":"Is an all in one cooking assistant web app built with React and Express",
-        "imgurl":"https://github.com/laucodx45/yesChef/raw/master/docs/YesChefHomePage.JPG"
+        "imgurl":[
+          "https://github.com/laucodx45/yesChef/raw/master/docs/YesChefHomePage.JPG",
+          "https://github.com/laucodx45/foodPickupOrdering/raw/master/src/FoodDeliveryApp01.JPG"
+        ]
       },
-      {
-        "name":"Food Ordering App",
-        "description":"A food ordering app with SMS notifications for new orders and pickup time updates. ",
-        "imgurl":"https://github.com/laucodx45/foodPickupOrdering/raw/master/src/FoodDeliveryApp01.JPG"
-      },
-      {
-        "name":"Photolabs",
-        "description":"A single-page application featuring photo viewing, category browsing, liking functionalities and dark mode.",
-        "imgurl":"https://github.com/laucodx45/photolabs/raw/main/frontend/public/mainPage.png"
-      },
-      {
-        "name":"LightBnb",
-        "description":"A multi-page Airbnb clone that uses server-side Javascript to display the information from queries to web pages via SQL queries",
-        "imgurl":"https://github.com/laucodx45/LightBnB/raw/master/img/searchResult.png"
-      }
+      // {
+      //   "name":"Food Ordering App",
+      //   "description":"A food ordering app with SMS notifications for new orders and pickup time updates. ",
+      //   "imgurl":"https://github.com/laucodx45/foodPickupOrdering/raw/master/src/FoodDeliveryApp01.JPG"
+      // },
+      // {
+      //   "name":"Photolabs",
+      //   "description":"A single-page application featuring photo viewing, category browsing, liking functionalities and dark mode.",
+      //   "imgurl":"https://github.com/laucodx45/photolabs/raw/main/frontend/public/mainPage.png"
+      // },
+      // {
+      //   "name":"LightBnb",
+      //   "description":"A multi-page Airbnb clone that uses server-side Javascript to display the information from queries to web pages via SQL queries",
+      //   "imgurl":"https://github.com/laucodx45/LightBnB/raw/master/img/searchResult.png"
+      // }
     ],
     "testimonials":[
       {

@@ -14,9 +14,12 @@ class App extends Component {
     this.state = {
       isModalOpen: false,
       modalContent: {},
+      // photo defaults at 0
+      modalGalleryIndex: 0
     };
   }
-
+  
+  // State management for modal
   openModal = (item) => {
     this.setState({
       isModalOpen: true,
@@ -31,6 +34,26 @@ class App extends Component {
     });
   };
 
+  nextPhoto = () => {
+    this.setState((prevState) => {
+      // if index is still lower than the length of imgurl array, allow user to access next photo
+      if (prevState.modalGalleryIndex < prevState.modalContent.imgurl.length - 1) {
+        return { modalGalleryIndex: prevState.modalGalleryIndex + 1 };
+      }
+      return null;
+    });
+  };
+  
+
+  previousPhoto = () => {
+    this.setState((prevState) => {
+      if (prevState.modalGalleryIndex > 0) {
+        return { modalGalleryIndex: prevState.modalGalleryIndex - 1 };
+      }
+      return null;
+    });
+  }
+
   render() {
     return (
       <div className="App">
@@ -43,6 +66,9 @@ class App extends Component {
           modalContent={this.state.modalContent}
           openModal={this.openModal}
           closeModal={this.closeModal}
+          nextPhoto={this.nextPhoto}
+          modalGalleryIndex={this.state.modalGalleryIndex}
+          previousPhoto={this.previousPhoto}
         />
       </div>
     );

@@ -567,17 +567,17 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .modal-header .close {
-   font-size: 24px; /* Adjust font size as needed */
-   cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+   font-size: 24px; 
+   cursor: pointer; 
 }
 
 .modal-content {
-   flex-grow: 1; /* Allows content to take up remaining space */
-   text-align: center; /* Centers text in the content */
+   flex-grow: 1;
+   text-align: center;
 }
 
 .modal-content h5, .modal-content p {
-   margin: 0; /* Removes default margin for better spacing */
+   margin: 0; 
 }
 
 
