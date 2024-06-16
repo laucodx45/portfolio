@@ -540,7 +540,7 @@ ul#nav li.current a { color: #F06000; }
       background-color: #3f524c;
       color: #ffffff;
       text-align: center;
-      border-radius: 4px;
+      border-radius: 8px;
       max-width: 900px;
       max-height: 90vh;
       padding: 10px;
@@ -578,6 +578,11 @@ ul#nav li.current a { color: #F06000; }
 
 .modal-content h5, .modal-content p {
    margin: 0; 
+}
+
+.modal-content .arrow-icon {
+   cursor: pointer;
+   font-size: 21px;
 }
 
 

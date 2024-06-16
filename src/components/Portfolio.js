@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { IoIosArrowBack, IoIosArrowForward, IoMdClose } from "react-icons/io";
 export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -41,14 +42,14 @@ export default class Porfolio extends Component {
                   <div className='modal-header'>
                     <div className='closeModal-box'>
                       <h5 className='modal-name'>{modalContent.name}</h5>
-                      <span className="close" onClick={closeModal}>&times;</span>
+                      <IoIosArrowBack className='arrow-icon' onClick={previousPhoto}/>
+                      <IoIosArrowForward className='arrow-icon' onClick={nextPhoto}/>
+                      <IoMdClose className='close' onClick={closeModal}/>
                     </div>
-                    <p>current index : {modalGalleryIndex}</p>
-                    <p>{modalContent.description}</p>
+                    <p>{modalContent.description[modalGalleryIndex]}</p>
                   </div>
                   <img src={`${modalContent.imgurl[modalGalleryIndex]}`} alt='' />
-                  <button onClick={previousPhoto}>prev</button>
-                  <button onClick={nextPhoto}>next</button>
+                  
                 </div>
               </div>
             )}

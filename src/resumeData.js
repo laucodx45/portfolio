@@ -105,10 +105,21 @@ let resumeData = {
     "portfolio":[
       {
         "name":"Yes, Chef",
-        "description":"Is an all in one cooking assistant web app built with React and Express",
+        "description":[
+          "Is an all in one cooking assistant web app built with React and Express",
+          "User can add and delete their pantry items and generate an AI recipe",
+          "An example of an AI generated recipe",
+          "User can view all their saved-recipes",
+          "User ask cooking related questions to our AI chat assistance",
+          "The chat assistance comes with different personality preset for user to choose"
+        ],
         "imgurl":[
-          "https://github.com/laucodx45/yesChef/raw/master/docs/YesChefHomePage.JPG",
-          "https://github.com/laucodx45/foodPickupOrdering/raw/master/src/FoodDeliveryApp01.JPG"
+          "/images/yeschef1.png",
+          "/images/yeschef2.png",
+          "/images/yeschef3.png",
+          "/images/yeschef4.png",
+          "/images/yeschef5.png",
+          "/images/yeschef6.png",
         ]
       },
       // {
