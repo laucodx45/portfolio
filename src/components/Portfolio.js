@@ -11,7 +11,7 @@ export default class Porfolio extends Component {
       <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Check Out Some of My Works.</h1>
+            <h1>Projects</h1>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
             {
               resumeData.portfolio && resumeData.portfolio.map((item)=>{
@@ -35,9 +35,13 @@ export default class Porfolio extends Component {
             {isModalOpen && (
               <div id="modal-01" className="modal">
                 <div className="modal-content">
-                  <span className="close" onClick={closeModal}>&times;</span>
-                  <h5>{modalContent.name}</h5>
-                  <p>{modalContent.description}</p>
+                  <div className='modal-header'>
+                    <div className='closeModal-box'>
+                      <h5 className='modal-name'>{modalContent.name}</h5>
+                      <span className="close" onClick={closeModal}>&times;</span>
+                    </div>
+                    <p>{modalContent.description}</p>
+                  </div>
                   <img src={`${modalContent.imgurl}`} alt='' />
                 </div>
               </div>
