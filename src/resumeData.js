@@ -104,24 +104,19 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Yes, Chef",
+        "description":"Is an all in one cooking assistant web app built with React and Express",
+        "imgurl":"https://github.com/laucodx45/yesChef/raw/master/docs/YesChefHomePage.JPG"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Food Ordering App",
+        "description":"A food ordering app with SMS notifications for new orders and pickup time updates. ",
+        "imgurl":"https://github.com/laucodx45/foodPickupOrdering/raw/master/src/FoodDeliveryApp01.JPG"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Photolabs",
+        "description":"A single-page application featuring photo viewing, category browsing, liking functionalities and dark mode.",
+        "imgurl":"https://github.com/laucodx45/photolabs/raw/main/frontend/public/mainPage.png"
       }
     ],
     "testimonials":[
