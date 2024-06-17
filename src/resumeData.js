@@ -122,21 +122,49 @@ let resumeData = {
           "/images/yeschef6.png",
         ]
       },
-      // {
-      //   "name":"Food Ordering App",
-      //   "description":"A food ordering app with SMS notifications for new orders and pickup time updates. ",
-      //   "imgurl":"https://github.com/laucodx45/foodPickupOrdering/raw/master/src/FoodDeliveryApp01.JPG"
-      // },
-      // {
-      //   "name":"Photolabs",
-      //   "description":"A single-page application featuring photo viewing, category browsing, liking functionalities and dark mode.",
-      //   "imgurl":"https://github.com/laucodx45/photolabs/raw/main/frontend/public/mainPage.png"
-      // },
-      // {
-      //   "name":"LightBnb",
-      //   "description":"A multi-page Airbnb clone that uses server-side Javascript to display the information from queries to web pages via SQL queries",
-      //   "imgurl":"https://github.com/laucodx45/LightBnB/raw/master/img/searchResult.png"
-      // }
+      {
+        "name":"Photolabs",
+        "description":[
+          "Single-page React application featuring photo viewing, category browsing, liking functionalities and dark mode.",
+          "Users can access a modal view by clicking on any photo",
+          "Photolabs allow user to browse photos that are in a similar category",
+          "Users can like photos in photolabs",
+          "Users can switch between dark and light mode by clickling the moon icon in nav bar"
+        ],
+        "imgurl":[
+          "/images/photolabs1.png",
+          "/images/photolabs2.png",
+          "/images/photolabs3.png",
+          "/images/photolabs4.png",
+          "/images/photolabs5.png"
+        ]
+      },
+      {
+        "name":"Food Ordering App",
+        "description":[
+          "A food ordering app with SMS notifications for new orders and pickup time updates.",
+          "Users can edit and submit order in cart section"
+        ],
+        "imgurl":["/images/foodOrdering2.png", "/images/foodOrdering1.png"]
+      },
+      {
+        "name":"LightBnb",
+        "description":[
+          "Airbnb clone that uses server-side Javascript to display the information from queries to web pages via SQL queries",
+          "Users can sign up or login",
+          "Users can create new property listing",
+          "They can view their active listing",
+          "Users can filter property listings",
+        ],
+        "imgurl":[
+          "/images/lightbnb1.png",
+          "/images/lightbnb2.png",
+          "/images/lightbnb3.png",
+          "/images/lightbnb4.png",
+          "/images/lightbnb5.png",
+          "/images/lightbnb6.png"
+        ]
+      }
     ],
     "testimonials":[
       {

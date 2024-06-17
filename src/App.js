@@ -21,9 +21,12 @@ class App extends Component {
   
   // State management for modal
   openModal = (item) => {
-    this.setState({
-      isModalOpen: true,
-      modalContent: item,
+    this.setState((prevState) => {
+      return {
+        isModalOpen: true,
+        modalContent: item,
+        modalGalleryIndex: 0
+      }
     });
   };
 

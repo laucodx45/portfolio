@@ -17,25 +17,17 @@ export default class Porfolio extends Component {
           <div className="twelve columns collapsed">
             <h1>Projects</h1>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-            {
-              resumeData.portfolio && resumeData.portfolio.map((item)=>{
-                return(
-                  <div className="columns portfolio-item">
-                    <div className="item-wrap">
-                      <div onClick={() => openModal(item)}>
-                          <img src={`${item.imgurl[0]}`} className="item-img" alt=''/>
-                          <div className="overlay">
-                            <div className="portfolio-item-meta">
-                              <h5>{item.name}</h5>
-                              <p>{item.description}</p>
-                            </div>
-                          </div>
-                      </div>
+            <div className='portfolio-min'>
+              {
+                resumeData.portfolio && resumeData.portfolio.map((item)=>{
+                  return(
+                    <div className='portfolio-item' onClick={() => openModal(item)}>
+                      <img src={`${item.imgurl[0]}`} className="item-img" alt=''/>
                     </div>
-                  </div>
-                )
-              })
-            }
+                  )
+                })
+              }
+            </div>
             {isModalOpen && (
               <div id="modal-01" className="modal">
                 <div className="modal-content">
