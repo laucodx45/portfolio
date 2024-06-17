@@ -489,7 +489,7 @@ ul#nav li.current a { color: #F06000; }
       text-align: center;
       border-radius: 8px;
       max-width: 900px;
-      max-height: 90vh;
+      max-height: 68vh;
       padding: 10px;
       transform: translate(-50%, -50%) scale(1);
 }
