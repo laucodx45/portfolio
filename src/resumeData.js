@@ -142,10 +142,19 @@ let resumeData = {
       {
         "name":"Food Ordering App",
         "description":[
-          "A food ordering app with SMS notifications for new orders and pickup time updates.",
-          "Users can edit and submit order in cart section"
+          "A food ordering app with SMS notifications for new orders and pickup time updates",
+          "Users can edit and submit order in cart section",
+          "Once the order is submitted, admin gets a sms notification, user can access their order history",
+          "Admin can input the time requires to complete the order, user gets an sms notification",
+          "Once order is completed, status changes to completed and user gets another sms notification"
         ],
-        "imgurl":["/images/foodOrdering2.png", "/images/foodOrdering1.png"]
+        "imgurl":[
+          "/images/foodOrdering2.png", 
+          "/images/foodOrdering1.png",
+          "/images/foodOrdering3.png",
+          "/images/foodOrdering4.png",
+          "/images/foodOrdering5.png"
+      ]
       },
       {
         "name": "LightBnb",
