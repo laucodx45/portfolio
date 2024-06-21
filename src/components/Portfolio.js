@@ -16,6 +16,15 @@ export default class Porfolio extends Component {
         <div className="row">
           <div className="twelve columns collapsed">
             <h1>Projects</h1>
+            <div id='link-project'>
+              <a
+                href="https://github.com/laucodx45"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                  Visit my project's codebase on GitHub!
+              </a>
+            </div>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
             <div className='portfolio-min'>
               {

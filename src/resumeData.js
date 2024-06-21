@@ -148,7 +148,7 @@ let resumeData = {
         "imgurl":["/images/foodOrdering2.png", "/images/foodOrdering1.png"]
       },
       {
-        "name":"LightBnb",
+        "name": "LightBnb",
         "description":[
           "Airbnb clone that uses server-side Javascript to display the information from queries to web pages via SQL queries",
           "Users can sign up or login",
@@ -161,8 +161,20 @@ let resumeData = {
           "/images/lightbnb2.png",
           "/images/lightbnb3.png",
           "/images/lightbnb4.png",
-          "/images/lightbnb5.png",
-          "/images/lightbnb6.png"
+          "/images/lightbnb5.png"
+        ]
+      },
+      {
+        "name": "Tweeter",
+        "description": [
+          "Tweeter is a simple, single-page Twitter clone. It's built with HTML, CSS, JS, jQuery, and AJAX",
+          "Tweeter in mobile view",
+          "Tweeter in tablet view"
+        ],
+        "imgurl": [
+          "/images/tweeter1.png",
+          "/images/tweeter2.png",
+          "/images/tweeter3.png"
         ]
       }
     ],

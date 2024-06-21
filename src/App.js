@@ -5,7 +5,7 @@ import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 // import Testimonials from  './components/Testimonials';
 // import ContactUs from './components/ContactUs';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import resumeData from './resumeData';
 class App extends Component {
 
@@ -73,6 +73,7 @@ class App extends Component {
           modalGalleryIndex={this.state.modalGalleryIndex}
           previousPhoto={this.previousPhoto}
         />
+        <Footer resumeData={resumeData}/>
       </div>
     );
   }
