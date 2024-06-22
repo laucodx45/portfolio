@@ -754,6 +754,7 @@ properly.
    #about .profile-pic {
       margin: 12px 0 12px 0;
       padding: 0;
+      margin-left: 0px;
    }
 }
 
