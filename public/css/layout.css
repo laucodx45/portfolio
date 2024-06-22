@@ -484,7 +484,7 @@ ul#nav li.current a { color: #F06000; }
 
 /* modal */
 .modal {
-      height: 66%;
+      height: 70%;
       width: 100%;
       position: fixed;
       top: 50%;
