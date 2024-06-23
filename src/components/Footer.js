@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 export default class Footer extends Component {
   render() {
     let resumeData = this.props.resumeData;
+    let isModalOpen = this.props.isModalOpen;
+    
     return (
-      <footer>
+      <footer className={`${isModalOpen ? 'blur' : ''}`}>
       <div className="row">
         <div className="twelve columns">
           <ul className="social-links">

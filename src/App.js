@@ -62,7 +62,7 @@ class App extends Component {
       <div className="App">
         <Header resumeData={resumeData}/>
         <About resumeData={resumeData}/>
-        <Resume resumeData={resumeData}/>
+        <Resume isModalOpen={this.state.isModalOpen} resumeData={resumeData}/>
         <Portfolio 
           resumeData={resumeData}
           isModalOpen={this.state.isModalOpen}
@@ -73,7 +73,7 @@ class App extends Component {
           modalGalleryIndex={this.state.modalGalleryIndex}
           previousPhoto={this.previousPhoto}
         />
-        <Footer resumeData={resumeData}/>
+        <Footer isModalOpen={this.state.isModalOpen} resumeData={resumeData}/>
       </div>
     );
   }

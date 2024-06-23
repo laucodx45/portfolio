@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
+    let isModalOpen = this.props.isModalOpen;
+    
     return (
-      <section id="resume">
+      <section id="resume" className={`${isModalOpen ? 'blur' : ''}`}>
 
          <div className="row education">
 

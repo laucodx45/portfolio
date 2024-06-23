@@ -523,10 +523,6 @@ ul#nav li.current a { color: #F06000; }
    align-items: center;
 }
 
-.modal-header .close {
-   font-size: 24px; 
-   cursor: pointer; 
-}
 
 .modal-content {
    flex-grow: 1;
@@ -546,8 +542,19 @@ ul#nav li.current a { color: #F06000; }
    font-size: 21px;
 }
 
+.modal-header .close {
+   font-size: 24px; 
+   cursor: pointer; 
+}
 
+.modal-content .arrow-icon:hover .close {
+   transform: scale(2.0); /* Enlarge the icon */
+   color: #555; /* Change the shade of the icon */
+}
 
+.blur {
+   filter: blur(1px);
+ }
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
 

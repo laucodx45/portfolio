@@ -25,8 +25,8 @@ export default class Porfolio extends Component {
                   Visit my project's codebase on GitHub!
               </a>
             </div>
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-            <div className='portfolio-min'>
+            <div id="portfolio-wrapper" className={`bgrid-quarters s-bgrid-thirds cf`}>
+            <div className={`portfolio-min ${isModalOpen ? 'blur' : ''}`}>
               {
                 resumeData.portfolio && resumeData.portfolio.map((item)=>{
                   return(
@@ -37,6 +37,7 @@ export default class Porfolio extends Component {
                 })
               }
             </div>
+            {/* Modal */}
             {isModalOpen && (
               <div id="modal-01" className="modal">
                 <div className="modal-content">
