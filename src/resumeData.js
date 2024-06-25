@@ -106,12 +106,12 @@ let resumeData = {
       {
         "name":"Yes, Chef",
         "description":[
-          "Is an all in one cooking assistant web app built with React and Express",
-          "User can add and delete their pantry items and generate an AI recipe",
+          "An all in one cooking assistant web app built with React, Express, powered by ChatGPT",
+          "User can add, delete pantry items and generate AI recipes",
           "An example of an AI generated recipe",
-          "User can view all their saved-recipes",
-          "User ask cooking related questions to our AI chat assistance",
-          "The chat assistance comes with different personality preset for user to choose"
+          "Users can view their saved-recipes",
+          "Users ask cooking related questions to thier AI chat assistance",
+          "Users can choose from a few pre-loaded personalities for their AI chatbot"
         ],
         "imgurl":[
           "/images/yeschef1.png",
@@ -125,7 +125,7 @@ let resumeData = {
       {
         "name":"Photolabs",
         "description":[
-          "Single-page React application featuring photo viewing, category browsing, liking functionalities and dark mode.",
+          "A single-page React application featuring photo viewing, category browsing, liking functionalities and dark mode.",
           "Users can access a modal view by clicking on any photo",
           "Photolabs allow user to browse photos that are in a similar category",
           "Users can like photos in photolabs",
@@ -143,7 +143,7 @@ let resumeData = {
         "name":"Food Ordering App",
         "description":[
           "A food ordering app with SMS notifications for new orders and pickup time updates",
-          "Users can edit and submit order in cart section",
+          "Users can edit and submit orders in cart section",
           "Once the order is submitted, admin gets a sms notification, user can access their order history",
           "Admin can input the time requires to complete the order, user gets an sms notification",
           "Once order is completed, status changes to completed and user gets another sms notification"
