@@ -125,7 +125,7 @@ let resumeData = {
       {
         "name":"Photolabs",
         "description":[
-          "A single-page React application featuring photo viewing, category browsing, liking functionalities and dark mode.",
+          "https://photolabs6.netlify.app",
           "Users can access a modal view by clicking on any photo",
           "Photolabs allow user to browse photos that are in a similar category",
           "Users can like photos in photolabs",

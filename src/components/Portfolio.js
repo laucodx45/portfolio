@@ -11,6 +11,17 @@ export default class Porfolio extends Component {
     let modalGalleryIndex = this.props.modalGalleryIndex
     let previousPhoto = this.props.previousPhoto
 
+
+
+    const isValidUrl = (string) => {
+      try {
+        new URL(string);
+        return true;
+      } catch (_) {
+        return false;
+      }
+    };
+
     return (
       <section id="portfolio">
         <div className="row">
@@ -48,7 +59,17 @@ export default class Porfolio extends Component {
                       <IoIosArrowForward className='arrow-icon' onClick={nextPhoto}/>
                       <IoMdClose className='close' onClick={closeModal}/>
                     </div>
-                    <p>{modalContent.description[modalGalleryIndex]}</p>
+                    {/* this is where the url checker should be used */}
+                    {isValidUrl(modalContent.description[modalGalleryIndex]) ? (
+                      <a 
+                        key={modalGalleryIndex} 
+                        href={modalContent.description[modalGalleryIndex]} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >View live</a>
+                    ) : (
+                      <p>{modalContent.description[modalGalleryIndex]}</p>
+                    )}
                   </div>
                   <img src={`${modalContent.imgurl[modalGalleryIndex]}`} alt='' />
                   
