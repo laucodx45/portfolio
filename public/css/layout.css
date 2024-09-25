@@ -448,7 +448,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .item-img {
-   border-radius: 8px;
+   /* border-radius: 8px; */
    width: 280px; 
    height: 150px; 
    object-fit: cover; 
@@ -1004,3 +1004,35 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+.photoCollage-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   width: 100%;
+   padding: 6rem;
+   
+ }
+ 
+ .photoCollage-container img {
+   object-fit: cover;
+   cursor: pointer;
+   margin: 2rem;
+   border-radius: 6px;
+ }
+ 
+ @media (min-width: 1024px) {
+   
+ }
+ 
+ @media (max-width: 600px) {
+   .photoCollage-container img {
+     margin: 2 rem;
+     width: 90%;
+   }
+   .photoCollage-container  {
+      flex-direction: column;
+      justify-content: center;
+    }
+ }
+ 
