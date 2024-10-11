@@ -22,6 +22,8 @@ export default class NewPorfolio extends Component {
           isModalOpen={isModalOpen}
           openModal={openModal}
           closeModal={closeModal}
+          modalContent={modalContent}
+          resumeData={resumeData}
         />
       </>
     )

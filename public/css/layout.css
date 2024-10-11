@@ -548,8 +548,8 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .modal-content .arrow-icon:hover .close {
-   transform: scale(2.0); /* Enlarge the icon */
-   color: #555; /* Change the shade of the icon */
+   transform: scale(2.0); 
+   color: #555; 
 }
 
 .blur {
