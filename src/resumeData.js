@@ -105,13 +105,11 @@ let resumeData = {
     "portfolio":[
       {
         "name":"Yes, Chef",
-        "description":[
-          "An all in one cooking assistant web app built with React, Express, powered by ChatGPT",
-          "User can add, delete pantry items and generate AI recipes",
-          "An example of an AI generated recipe",
-          "Users can view their saved-recipes",
-          "Users ask cooking related questions to thier AI chat assistance",
-          "Users can choose from a few pre-loaded personalities for their AI chatbot"
+        "description": [
+          `Yes, Chef is an all in one cooking assistant web app built with React, Express, powered by ChatGPT. 
+          User can add, delete pantry items and generate AI recipes.
+          Users can view their saved-recipes, ask cooking related questions to their AI chat assistance. 
+          Users can also choose from a few pre-loaded personalities for their AI chatbot.`
         ],
         "imgurl":[
           "/images/yeschef1.png",
@@ -124,12 +122,11 @@ let resumeData = {
       },
       {
         "name":"Photolabs",
-        "description":[
-          "https://photolabs6.netlify.app",
-          "Users can access a modal view by clicking on any photo",
-          "Photolabs allow user to browse photos that are in a similar category",
-          "Users can like photos in photolabs",
-          "Users can switch between dark and light mode by clickling the moon icon in nav bar"
+        "description": [
+          `
+          React Photo Viewer is a single-page application that allows users to view photos, browse different categories, 
+          like pictures, and navigate through a multi-page interface. 
+          The application is connected to a PostgreSQL database to store and retrieve photo data.`
         ],
         "imgurl":[
           "/images/photolabs1.png",
@@ -141,12 +138,12 @@ let resumeData = {
       },
       {
         "name":"Food Ordering App",
-        "description":[
-          "A food ordering app with SMS notifications for new orders and pickup time updates",
-          "Users can edit and submit orders in cart section",
-          "Once the order is submitted, admin gets a sms notification, user can access their order history",
-          "Admin can input the time requires to complete the order, user gets an sms notification",
-          "Once order is completed, status changes to completed and user gets another sms notification"
+        "description": [
+          `A food ordering app with SMS notifications for new orders and pickup time updates.
+          Users can edit and submit orders in the cart section.
+          Once the order is submitted, the admin gets an SMS notification, and users can access their order history.
+          Admin can input the time required to complete the order, and the user receives an SMS notification.
+          Once the order is completed, the status changes to completed, and the user gets another SMS notification.`
         ],
         "imgurl":[
           "/images/foodOrdering2.png", 
@@ -158,12 +155,13 @@ let resumeData = {
       },
       {
         "name": "LightBnb",
-        "description":[
-          "Airbnb clone that uses server-side Javascript to display the information from queries to web pages via SQL queries",
-          "Users can sign up or login",
-          "Users can create new property listing",
-          "They can view their active listing",
-          "Users can filter property listings",
+        "description": [
+          `LightBnb is a simple multi-page Airbnb clone that uses server-side 
+          Javascript to display the information from queries to web pages via SQL queries
+          This project focuses on designing a robust relational database, 
+          the LightBnb database has been meticulously designed with normalization in mind, 
+          ensuring efficient storage and retrieval of data. The database is responsible for storing property details, 
+          user information, reservations, and reviews.`
         ],
         "imgurl":[
           "/images/lightbnb1.png",
@@ -176,9 +174,10 @@ let resumeData = {
       {
         "name": "Tweeter",
         "description": [
-          "Tweeter is a simple, single-page Twitter clone. It's built with HTML, CSS, JS, jQuery, and AJAX",
-          "Tweeter in mobile view",
-          "Tweeter in tablet view"
+          `Tweeter is a simple, single-page Twitter clone. 
+            Tweeter provides users with a simple platform to share their thoughts, commonly known as tweets.
+            This web application implements a combination of front-end skills such as using HTML, CSS, JS, jQuery, and AJAX, 
+            along with back-end skills utilizing Node.js and Express.`
         ],
         "imgurl": [
           "/images/tweeter1.png",

@@ -17,7 +17,7 @@ export default class BootStrapModal extends Component {
       <>
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>Modal heading</Modal.Title>
+            <Modal.Title>{modalContent.name}</Modal.Title>
           </Modal.Header>
           <div>
             <SwiperCom
