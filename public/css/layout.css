@@ -484,7 +484,7 @@ ul#nav li.current a { color: #F06000; }
 
 /* modal */
 .modal {
-      height: 70%;
+      height: 80%;
       width: 100%;
       position: fixed;
       top: 50%;
@@ -506,8 +506,10 @@ ul#nav li.current a { color: #F06000; }
 .modal-header {
    display: flex;
    justify-content: space-between; 
-   flex-direction: column;
+   flex-direction: row;
    padding: 10px;
+   font-size: 2.5rem;
+   font-family: sans-serif;
 }
 
 .modal-name {
@@ -545,6 +547,7 @@ ul#nav li.current a { color: #F06000; }
 .modal-header .close {
    font-size: 24px; 
    cursor: pointer; 
+   margin-top: 13px;
 }
 
 .modal-content .arrow-icon:hover .close {
@@ -552,6 +555,22 @@ ul#nav li.current a { color: #F06000; }
    color: #555; 
 }
 
+.modal-body {
+   padding: 3rem;
+   font-family: sans-serif;
+   font-size: 16px;
+}
+
+.modal-footer {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.modal-footer #close-btn {
+   padding: 0.35rem 0.75rem;
+   margin: 1rem;
+
+}
 .blur {
    filter: blur(1px);
  }

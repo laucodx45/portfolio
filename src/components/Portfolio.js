@@ -48,34 +48,7 @@ export default class Porfolio extends Component {
                 })
               }
             </div>
-            {/* Modal */}
-            {isModalOpen && (
-              <div id="modal-01" className="modal">
-                <div className="modal-content">
-                  <div className='modal-header'>
-                    <div className='closeModal-box'>
-                      <h5 className='modal-name'>{modalContent.name}</h5>
-                      <IoIosArrowBack className='arrow-icon' onClick={previousPhoto}/>
-                      <IoIosArrowForward className='arrow-icon' onClick={nextPhoto}/>
-                      <IoMdClose className='close' onClick={closeModal}/>
-                    </div>
-                    {/* this is where the url checker should be used */}
-                    {isValidUrl(modalContent.description[modalGalleryIndex]) ? (
-                      <a 
-                        key={modalGalleryIndex} 
-                        href={modalContent.description[modalGalleryIndex]} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                      >View live</a>
-                    ) : (
-                      <p>{modalContent.description[modalGalleryIndex]}</p>
-                    )}
-                  </div>
-                  <img src={`${modalContent.imgurl[modalGalleryIndex]}`} alt='' />
-                  
-                </div>
-              </div>
-            )}
+            
             </div>
           </div>
         </div>

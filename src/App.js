@@ -5,6 +5,7 @@ import Resume from './components/Resume';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
 import NewPorfolio from './components/NewPortfolio';
+import BootStrapModal from './components/BootstrapModal';
 
 class App extends Component {
 
@@ -71,6 +72,13 @@ class App extends Component {
           nextPhoto={this.nextPhoto}
           modalGalleryIndex={this.state.modalGalleryIndex}
           previousPhoto={this.previousPhoto}
+        />
+        <BootStrapModal 
+          isModalOpen={this.state.isModalOpen}
+          openModal={this.openModal}
+          closeModal={this.closeModal}
+          modalContent={this.state.modalContent}
+          resumeData={resumeData}
         />
         <Footer isModalOpen={this.state.isModalOpen} resumeData={resumeData}/>
       </div>

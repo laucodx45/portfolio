@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import SwiperCom from './Swiper';
 // import 'bootstrap/dist/css/bootstrap.min.css';
+import { IoMdClose } from "react-icons/io";
 
 export default class BootStrapModal extends Component {
 
@@ -16,9 +17,11 @@ export default class BootStrapModal extends Component {
     return (
       <>
         <Modal show={show} onHide={handleClose}>
-          <Modal.Header closeButton>
-            <Modal.Title>{modalContent.name}</Modal.Title>
+          <Modal.Header>
+            <Modal.Title className='modal-header'>{modalContent.name}</Modal.Title>
+            <IoMdClose className='close' onClick={handleClose}/>
           </Modal.Header>
+          
           <div>
             <SwiperCom
               resumeData={resumeData}
@@ -29,7 +32,7 @@ export default class BootStrapModal extends Component {
             {modalContent.description && modalContent.description[0] ? modalContent.description[0] : null}
           </Modal.Body>
           <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
+            <Button id='close-btn' variant="secondary" onClick={handleClose}>
               Close
             </Button>
           </Modal.Footer>
