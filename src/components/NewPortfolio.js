@@ -12,6 +12,16 @@ export default class NewPorfolio extends Component {
 
     return (
       <section id="portfolio">
+        <h3 style={{ display: 'flex', justifyContent: 'center' }}>Projects</h3>
+        <div id='link-project'>
+          <a
+            href="https://github.com/laucodx45"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+              Visit my project's codebase on GitHub!
+          </a>
+        </div>
         <div className={`portfolio-min ${isModalOpen ? 'blur' : ''}`}>
           <div className='photoCollage-container' id='PreviousWork-section'>
             {resumeData.portfolio && resumeData.portfolio.map((item) => (
